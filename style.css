@@ -1,0 +1,44 @@
+h2 {
+  text-align: center;
+}
+body {
+  background-color: aqua;
+}
+.social-link{
+  padding: 20px;
+}
+b,h3{
+  padding: 0px 20px;
+}
+#docs{
+  margin-top: 50px;
+}
+           #x{
+      position: fixed;
+      background: black;
+      width: 100%;
+      height: 2000px;
+    }
+    #perloder{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 170px;
+      height: 170px;
+    }
+    .circle{
+      padding:7px ;
+      width: calc(100% - 0px);
+      height: calc(100% - 0px);
+      border: 3px solid  white;
+      border-radius: 50%;
+      border-bottom-color: black;
+      border-top-color:  black;
+      animation: load 5s linear;
+    }
+    @keyframes load{
+      100%{
+        transform: rotate(360deg);
+      }
+    }
