@@ -42,3 +42,8 @@ b,h3{
         transform: rotate(360deg);
       }
     }
+@media only screen and (max-width: 560px){
+  #x{
+    height: 100vh;
+  }
+}
